@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-banner">
+        <p class="current-plan">Your current plan</p>
+        <p class="starter-trial">Starter trial.500MAUs</p>
+    </div>
+    <div class="container">
+        <div class="toggle-switch">
+            <span>Billed annually</span>
+            <input type="checkbox" class="toggle">
+            <span>Billed monthly</span>
+        </div>
+        <div class="cards">
+            <!-- Starter plan -->
+            <div class="card" id="card1">
+            <h2 class="card-title">Starter</h2>
+            <h1 class="card-price" id="starter-price">$19</h1>
+            <ul class="card-plan">
+                <li>500MAUs</li>
+                <li>3 Projects</li>
+                <li>Unlimited guides</li>
+                <li>Unlimited brands</li>
+                <li>Email support</li>
+            </ul>
+            <button type="button" class="btn">Choose Plan</button>
+            </div>
+            <!-- pro plan -->
+            <div class="card active" id="card2">
+            <h2 class="card-title">Pro</h2>
+            <h1 class="card-price" id="pro-price">$99 <span>/ month</span></h1>
+            
+            <select id="maus">
+            <option value="500">500MAUs</option>
+            <option value="100">1000MAUs</option>
+            <option value="1500">1500MAUs</option>
+            <option value="2000">2900MAUs</option>
+            <option value="2500">2500MAUs</option>
+            </select>
+            <span class="note">monthly active users</span>
+            
+            <ul class="card-plan">
+                <li>All starter featured, plus</li>
+                <li>Unlimited Projects</li>
+                <li>Unlimited fully customized themes</li>
+                <li>A dedicated customer Success Manager</li>
+            
+            </ul>
+            <button type="button" class="btn">Choose Plan</button>
+            </div>
+            <!-- enterprise -->
+            <div class="card" id="card3">
+            <h2 class="card-title">Enterprise</h2>
+            <h1 class="card-price" >Let's Talk</h1>
+            <ul class="card-plan">
+                <li>All pro featured</li>
+                <li>Unlimited maus</li>
+                <li>Detected environment</li>
+                <li>Enterprise account administration</li>
+                <li>Premium account & services</li>
+                
+            </ul>
+            <button type="button" class="btn">Contact Us</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
